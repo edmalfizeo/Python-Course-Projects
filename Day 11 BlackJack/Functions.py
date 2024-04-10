@@ -1,4 +1,4 @@
-import random
+import random, Art
 
 cards = [11,2,3,4,5,6,7,8,9,10,10,10,10]
 
@@ -36,6 +36,8 @@ def compare(user_score, computer_score):
 def play_blackjack():
     user_cards = []
     computer_cards = []
+
+    print(Art.logo)
     
     # Deal initial cards
     for _ in range(2):
